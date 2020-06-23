@@ -44,7 +44,7 @@ function uploading_photos(){
         mkdir("images", 8777,true);
     }
     $connection = connection();
-    $query = 'INSERT INTO images(img_name, uploaded_user_id, views) VALUES (?,?,?)';
+    $query = 'INSERT INTO images(img_name, uploaded_user_id) VALUES (?,?)';
 
     $path = 'images';
     if(!empty($_FILES['docs']['name'])){
@@ -56,7 +56,7 @@ function uploading_photos(){
             }
             move_uploaded_file($tmpPath,$path.DIRECTORY_SEPARATOR.$name);
             $insertQuery = $connection -> prepare($query);
-            $insertQuery -> execute([$path.DIRECTORY_SEPARATOR.$name,$_COOKIE['userID']],'0');
+            $insertQuery -> execute([$path.DIRECTORY_SEPARATOR.$name,$_COOKIE['userID']]);
         }
     }
     header('Location: main_page.php');

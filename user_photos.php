@@ -18,7 +18,7 @@ foreach ($selectRows as $selectRow):?>
     </form>
     <form method="post" action="process.php">
         <button name="deletePhoto" type="submit">Delete</button>
-        <input type="text" name="deleteHidden" value="<?=$selectRow['img_id']?>">
+        <input type="hidden" name="deleteHidden" value="<?=$selectRow['img_id']?>">
     </form>
 <?php endforeach;?>
 <form method="post" action="process.php">
