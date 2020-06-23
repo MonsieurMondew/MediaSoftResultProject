@@ -12,6 +12,7 @@ create table users (
     img_id int auto_increment NOT NULL,
     img_name varchar(255) NOT NULL ,
     uploaded_user_id int,
+    views float,
     constraint images_pk
     primary key (img_id)
 )engine = INNODB

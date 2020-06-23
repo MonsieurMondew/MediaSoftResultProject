@@ -95,3 +95,19 @@ body{
     font-family: 'Lora', serif;
     margin: 65% 0 0 30%;
 }
+.photo_butt{
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: black;
+    padding: 20px 30px;
+    margin: 5%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Lora', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to left,#BE93C5,#7BC6CC);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
