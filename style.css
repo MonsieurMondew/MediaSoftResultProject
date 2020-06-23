@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700&subset=latin,cyrillic);
+body{
+    background: linear-gradient(to right,#BE93C5,#7BC6CC);
+}
+.form-control{
+    margin: 16px auto;
+}
+.inputSomething{
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #3fada8;
+    outline: none;
+    background: transparent;
+    width: 150px;
+    height: auto;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+}
+.inputNick::-webkit-input-placeholder{
+    font-family: 'Lora', serif;
+    color: black;
+    opacity: 40%;
+}
+.sigIn_page{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 37%;
+    margin-bottom: 10%;
+    border-radius: 25px;
+}
+.bigText{
+    font-size: 50px;
+    font-family: 'Lora', serif;
+    margin-left: 25%;
+}
+.labels{
+    font-size: 35px;
+    font-family: 'Lora', serif;
+    margin-left: 25%;
+}
+.but{
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: black;
+    padding: 20px 30px;
+    margin: 5% 0 5% 40%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Lora', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to left,#BE93C5,#7BC6CC);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: 2s;
+}
+.butt{
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: black;
+    padding: 20px 30px;
+    margin: 20% 0 5% 19%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Lora', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to left,#BE93C5,#7BC6CC);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+.documents{
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: black;
+    padding: 20px 30px;
+    margin: 5% 0 0 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Lora', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to left,#BE93C5,#7BC6CC);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+.smallText{
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    margin: 65% 0 0 30%;
+}
+.photo_butt{
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: black;
+    padding: 20px 30px;
+    margin: 5%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Lora', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to left,#BE93C5,#7BC6CC);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
